@@ -51,3 +51,28 @@ img{object-fit: cover;}
 .tx-c{text-align: center;}
 
 .f-sz-36{font-size: 36px;}
+
+.img-lg{width:300px;height:300px;}
+
+
+
+.page-header {
+    color: #fff;
+    background-color: #001;
+    padding-top:4em;
+    padding-bottom:4em;
+}
+.main-content{
+    padding: 10px;
+}
+@media screen and (min-width: 768px) {
+    .page-header h1 {
+        font-size: 3em;
+    }
+    .page-header h3{
+        font-size: 1.75em;
+    }
+    .main-content{
+        padding: 10px 10%;
+    }
+}

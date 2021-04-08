@@ -1,10 +1,3 @@
-.page-header {
-    color: #fff;
-    background-color: #001;
-    background-image: radial-gradient(120deg, #155799, #00050a);
-}
-
-
 .btn {
     color: #fffb;
     width:5em;
@@ -12,23 +5,24 @@
     border: 1px solid #0001;
     transition: background 0.2s ease;
 }
-
+footer {
+    color: #fff;
+    background: #001;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+ul,a {
+    padding: 10px;
+    margin: auto 0;
+    text-align: center;
+}
+@media screen and (max-width: 768px) {
+    ul,a {width: 100%;}
+}
+footer a img {
+    width: 75px;
+    height: 75px;
+}
 .btn:hover {
     background: #fff2;
-}
-
-.main-content{
-    padding: 10px;
-}
-
-@media screen and (min-width: 768px) {
-    .page-header h1 {
-        font-size: 3em;
-    }
-    .page-header h3{
-        font-size: 1.75em;
-    }
-    .main-content{
-        padding: 10px 10%;
-    }
 }
