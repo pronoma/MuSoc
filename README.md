@@ -1,2 +1,1 @@
-# MuSocdraft
 Music Society website
